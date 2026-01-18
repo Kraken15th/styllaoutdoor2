@@ -368,7 +368,7 @@
 
     <div class="bg-green-100 border-2 border-green-500 rounded-xl p-6 mb-8 text-center">
         <p class="text-green-700 font-bold text-2xl">🚚 الشحن مجاني للقاهرة والجيزة</p>
-        <p class="text-green-600 text-lg mt-2">المحافظات الأخرى: 500 جنيه رسوم شحن</p>
+        <p class="text-green-600 text-lg mt-2">المحافظات الأخرى: 50 جنيه رسوم شحن</p>
     </div>
 
     <div id="totalBillSection" class="glass-effect rounded-3xl shadow-2xl p-8 mb-8">
@@ -589,7 +589,7 @@
             // Calculate totals
             const numPieces = selectedModel.pieces;
             const productsPrice = selectedModel.price;
-            const shippingCost = (city !== 'القاهرة' && city !== 'الجيزة') ? 500 : 0;
+            const shippingCost = (city !== 'القاهرة' && city !== 'الجيزة') ? 50 : 0;
             const totalPrice = productsPrice + shippingCost;
 
             // Get selected model name for the message
